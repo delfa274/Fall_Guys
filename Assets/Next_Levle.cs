@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Next_Levle : MonoBehaviour
 {
     public int Levle;
 
-    public void Next();
+    public void Next()
     {
-    
+        SceneManager.LoadScene(Levle);
     }
     // Start is called before the first frame update
     void Start()

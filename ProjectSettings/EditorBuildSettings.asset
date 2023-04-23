@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: b2f55ca3ed4b82640a8f1cd44fd7903a
+  - enabled: 1
+    path: Assets/Scenes/Fall Guys 1.unity
+    guid: 08de022c7507a2f4d9d6e1a2df2e853b
+  - enabled: 1
+    path: Assets/Scenes/Fall Guys 2.unity
+    guid: 82f9a3678da40384c8555588e1fe3a39
+  - enabled: 1
+    path: Assets/Scenes/Last Scene.unity
+    guid: f01821d742fa41044a30e423d971907e
   m_configObjects: {}
