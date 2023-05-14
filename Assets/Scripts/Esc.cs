@@ -5,18 +5,15 @@ using UnityEngine;
 public class Esc : MonoBehaviour
 {
     public GameObject obj;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Cancel"))
-				{
-					obj.SetActive(true);
-				}
+        if (Input.GetButtonDown("Cancel"))
+		{
+            bool isActive = !obj.activeSelf;
+            Cursor.visible = isActive;
+			obj.SetActive(isActive);
+		}
     }
 }
